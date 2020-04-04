@@ -1,0 +1,19 @@
+{
+    "html template": {
+        "scope": "html,vue",
+        "prefix": "html",
+        "body": [
+            "<!DOCTYPE html>",
+            "<html>",
+            "    <head>",
+            "        <meta charset=\"utf-8\" />",
+            "        <title>${1:DEMO}</title>",
+            "    </head>",
+            "    <body>",
+            "        $2",
+            "    </body>",
+            "</html>"
+        ],
+        "description": "!DOCTYPE html template"
+    }
+}

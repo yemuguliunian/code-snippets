@@ -1,0 +1,30 @@
+{
+  "name": "code-snippets",
+  "version": "1.0.0",
+  "description": "个人常用的代码片段",
+  "main": "index.js",
+  "scripts": {
+    "hub": "ts-node scripts/generator.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yemuguliunian/code-snippets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yemuguliunian/code-snippets/issues"
+  },
+  "homepage": "https://github.com/yemuguliunian/code-snippets#readme",
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "prettier": "^2.0.2",
+    "ts-node": "^8.8.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.0",
+    "gray-matter": "^4.0.2",
+    "vtils": "^2.57.0"
+  }
+}
