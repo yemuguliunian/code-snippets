@@ -1,0 +1,19 @@
+{
+    "Vue单文件组件 script": {
+        "scope": "vue",
+        "prefix": "<script> javascript.vue",
+        "body": [
+            "<script>",
+            "export default {",
+            "    components: {},",
+            "    props() {},",
+            "    data() {",
+            "        return {};",
+            "    },",
+            "    methods: {},",
+            "};",
+            "</script>"
+        ],
+        "description": "javascript.vue"
+    }
+}
