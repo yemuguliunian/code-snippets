@@ -10,4 +10,4 @@ module.exports = {
     endOfLine: 'lf',
     // 每行最多多少个字节
     printWidth: 100,
-}
+};
