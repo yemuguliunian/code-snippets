@@ -41,6 +41,7 @@ const renderSnippent = ({ title, prefix, scope, description, content }) => {
                 ${content
                     .replace(/"/g, '\\"')
                     .split('\n')
+                    .filter((item) => !item.startsWith('<!--'))
                     .map((item) => `"${item}"`)
                     .join(',\n')}
             ],
