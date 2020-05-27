@@ -8,7 +8,7 @@ description: 'javascript.vue'
 <script>
 export default {
     components: {},
-    props() {},
+    props: {},
     data() {
         return {};
     },
